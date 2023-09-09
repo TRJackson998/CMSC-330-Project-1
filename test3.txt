@@ -1,0 +1,3 @@
+Scene TextScene (600, 400)
+Text Color (0, 0, 255) at (250, 300) "Software Development!";
+End.

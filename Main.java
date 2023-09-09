@@ -1,7 +1,20 @@
-// CMSC 330 Advanced Programming Languages
-// Project 1 Skeleton
-// UMGC CITE
-// August 2021
+/*
+ * Jackson, Terrence
+ * CMSC 330 Project 1
+ * 09.09.2023
+ * Summary:
+ * driver for program
+ * prompts for input
+ * attempts to parse input and create scene
+ * Additions:
+ * Close scanner to avoid resource leak warning
+ */
+/*
+* CMSC 330 Advanced Programming Languages
+* Project 1 Skeleton
+* UMGC CITE
+* August 2021 
+ */
 
 import java.io.*;
 import java.util.*;
@@ -10,11 +23,13 @@ import javax.swing.*;
 // Project 1 main class
 
 class Main {
-
-    // The main method of the whole program, allows the name of the scene definition file to be input on the
-    // command line or selected using the file chooser dialog window. It calls the parser to parse the scene
-    // definition file and add the graphic objects to the scene.
-
+    /*
+     * The main method of the whole program, allows the name of the scene definition
+     * file to be input on the
+     * command line or selected using the file chooser dialog window. It calls the
+     * parser to parse the scene
+     * definition file and add the graphic objects to the scene.
+     */
     public static void main(String[] args) {
         Scanner stdin = new Scanner(System.in);
         String sceneFileName;
@@ -40,5 +55,7 @@ class Main {
         } catch (IOException error) {
             System.out.println("IO Error");
         }
+
+        stdin.close(); // Resource leak warning
     }
 }

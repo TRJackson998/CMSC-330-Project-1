@@ -1,0 +1,3 @@
+Scene SolidPolygonScene (600, 600)
+SolidPolygon Color (128, 255, 0) at (300, 300) 6 (250, 350) (350, 350) (400, 300) (350, 250) (250, 250) (200, 300);
+End.

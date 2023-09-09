@@ -1,0 +1,24 @@
+# Note
+See Requirements.pdf for the assignment instructions
+
+# Project Report
+Approaching this project, my initial step was to set up all the provided Java files in my Integrated Development Environment (IDE), ensuring that I had a clean workspace to work with. Following this, I ran the script to get an overview of its functionality and examined the project's directions carefully. To gain a clearer understanding of how the script operated, I decided to test it using example inputs to identify any potential issues or errors that might arise during execution.
+
+With a general grasp of the project's scope, I began delving into the codebase, starting with the main function. I followed the logic flow through the various classes: `Parser.java`, `Lexer.java`, and `Token.java`. During this exploration, I encountered a crucial question regarding the `Token` enum's functionality – specifically, how it compared different tokens. My curiosity led me to use debugging tools to inspect the types of tokens being compared. This inquiry ultimately directed me to `Lexer.java`, where I discovered that `Token` objects were indeed being compared, not as strings, but as `Token` instances.
+
+Throughout this process, I made a conscious effort to avoid becoming overly engrossed in the intricacies of Java libraries, keeping my focus primarily on understanding the project's requirements. I documented my progress by leaving `TODO` comments to serve as reminders for future tasks, such as adding new shapes to the `Token` enum, extending existing classes, and implementing missing features. This systematic approach helped me navigate through the project's complexity and allowed me to maintain a structured workflow.
+
+As I worked through the project, I encountered several challenges that required my attention. One notable hurdle involved implementing the various shapes correctly, which involved debugging and refining the code to ensure that each shape was rendered accurately. This process involved meticulous consideration of geometry and adjustments to the code to ensure that shapes like the red triangle and parallelogram were drawn correctly.
+
+Towards the project's completion, I turned my focus to the `Text` class, which presented a unique set of challenges. I needed to understand how to handle text input and integrate it into the existing codebase. This led me to inspect the `Lexer` and `Token` classes to recognize and process text as a string token. To tackle this, I added a `STRING` token to `Token.java` and implemented a mechanism in `Lexer.java` to handle and read in text as a string token.
+
+In summary, my approach to this project was methodical and structured. I began by setting up the environment, testing the existing script, and thoroughly understanding the project's requirements. I relied on debugging tools to navigate the codebase, left `TODO` comments to track tasks, and addressed each challenge as it arose. This iterative and organized approach allowed me to successfully complete the project, overcoming challenges related to geometry and text handling while ensuring that the code met all the specified requirements.
+
+# Project Reflection
+The fundamental takeaway for this project is the hands-on experience with parsing and grammar handling. Dealing with a complex grammar and modifying a lexer and parser has deepened my understanding of how structured data can be processed and transformed into meaningful representations. This knowledge extends far beyond the project itself, as it equips me with the skills necessary to work effectively with domain-specific languages and compilers, a skillset that can be applied to a wide range of software development scenarios.
+
+Furthermore, this project reinforced object-oriented design principles. The creation of multiple classes to represent different shapes, each with its own unique properties and methods, underscored the importance of inheritance, encapsulation, and abstraction. Translating abstract shapes into graphical representations using Java's Graphics class also broadened my skill set, introducing graphics programming concepts.
+
+Another valuable lesson centers on the significance of meticulous testing and documentation. Developing a comprehensive test plan, including writing test cases and documenting the expected outcomes emphasized the critical role of testing in software development. Additionally, creating clear and concise documentation, such as code comments and a project report, improved documentation skills. Effective documentation is essential not only for personal reference but also for collaboration and maintaining the codebase in the long run.
+
+This project has contributed to my growth as a software developer, equipping me with a broader skill set, a deeper understanding of core concepts, and a heightened appreciation for meticulous testing and documentation in the software development process.

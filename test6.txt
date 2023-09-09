@@ -1,0 +1,4 @@
+Scene MissingSemicolon (800, 600)
+RightTriangle Color (255, 0, 0) at (150, 100) Height 120 Width 180
+Rectangle Color (0, 255, 128) at (400, 250) Height 80 Width 250;
+End.

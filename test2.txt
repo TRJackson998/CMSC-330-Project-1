@@ -1,0 +1,5 @@
+Scene AdditionalShapes (700, 800)
+Isosceles Color (0, 128, 255) at (150, 200) Height 100 Width 200;
+Parallelogram Color (128, 0, 128) at (300, 350) (450, 400) Offset 75;
+RegularPolygon Color (255, 255, 0) at (500, 250) Sides 5 Radius 90;
+End.

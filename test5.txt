@@ -1,0 +1,8 @@
+Scene ComplexScene (600, 600)
+Rectangle Color (128, 0, 0) at (300, 250) Height 80 Width 250;
+Isosceles Color (255, 0, 255) at (250, 400) Height 100 Width 200;
+Parallelogram Color (0, 255, 255) at (250, 450) (400, 500) Offset 100;
+RegularPolygon Color (255, 128, 128) at (200, 400) Sides 6 Radius 120;
+RightTriangle Color (0, 128, 0) at (150, 150) Height 120 Width 180;
+Text Color (255, 0, 0) at (300, 300) "Programming Rocks!";
+End.
